@@ -1,11 +1,9 @@
 # TP1-a: Programación Orientada a Datos - ANSI C
-Arquitectura y Organización del Computador
 
-**Entrega:** 05/09/2024
+El presente repositorio corresponde a **la primer parte** de un taller realizado durante la cursada de la materia "Arquitectura y Organización del Computador". A continuación se encuentran expuestas las correspondientes consignas. 
 
-**Reentrega del TP1 completo (tp1-a, tp1-b y tp1-c):** 03/10/2024
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--------------
 En este taller vamos a trabajar con código `C` interpretándolo desde la perspectiva de los datos, y en particular, de la forma en que los datos se ubican en memoria.
 Implementaremos algunas estructuras de datos que nos ayudarán a entender cómo programar en el lenguaje C y cómo hacer correcto uso de memoria dinámica.
 
@@ -16,7 +14,6 @@ Se recomienda **fuertemente** ir haciendo commits de su progreso a medida que av
 ## Tabla de contenidos
 - [TP1-a: Programación Orientada a Datos - ANSI C](#tp1-a-programación-orientada-a-datos---ansi-c)
   - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Preparación](#preparación)
   - [Introducción](#introducción)
     - [Precalentando](#precalentando)
       - [Compilar y linkear con Makefiles](#compilar-y-linkear-con-makefiles)
@@ -27,38 +24,6 @@ Se recomienda **fuertemente** ir haciendo commits de su progreso a medida que av
     - [Ejercicio Integrador](#ejercicio-integrador)
   - [Entrega](#entrega)
 
-## Preparación
-Se asume que completaron el trabajo práctico 0 de la materia, luego del cual deberían tener configurado `git` en su entorno de trabajo local y haber realizado un fork propio del repositorio de trabajos prácticos individuales.
-
-Para el desarrollo de este trabajo práctico se deberá realizar un fork por grupo, en el cual se deberán completar las tres partes del trabajo (tp1-a, tp1-b, tp1-c).
-No olviden **agregar a todos los miembros del grupo** a su fork grupal con nivel de acceso `mantainer`, así todos pueden participar del código y realizar consultas mediante issues.
-
-Si en algún momento más de un miembro del grupo quisiera hacer cambios al código del repositorio en simultáneo, es una buena práctica que cada uno cree una nueva `branch` donde alojar los cambios que quieren hacer temporalmente.
-Una vez que terminen de realizar sus cambios, pueden abrir un `pull request` a la branch principal (usualmente llamada `main` o `master`) **de su fork** e incorporar los nuevos cambios al cuerpo de la resolución de manera ordenada. Pueden encontrar más información sobre [branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) y [pull requests/merges](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) en la documentación de git.
-
-Para la entrega **solo se considerarán los cambios que se encuentren en la branch principal** (ya sea `main` o `master`).
-
-1. Crear **un** fork del repositorio actual, a ser utilizado por todo el grupo durante todo el desarrollo del tp1 (revisar las instrucciones para crear forks en el tp0 de ser necesario). El fork debe ser **privado**.
-2. Revisar que la visibilidad del repositorio nuevo sea privada
-3. Agregar a los docentes como miembros, con rol **developer**. Los usuarios a agregar son:
-
-- emarchi
-- bventrici
-- fdemartino
-- gzuker
-- iglosiggio
-- imaqueda
-- jszabo
-- mpiaggio
-- mcervetto
-- nromero
-- sruberto
-- afernandezortuzar
-- kgoldsmit
-
-4. Confirmar la correcta creación y permisos del repositorio enviando el comando `/repotest path:<namespace/repo-name>` al OrgaBot en Discord
-5. Clonar el repositorio en su entorno de trabajo local usando el comando `git clone <repo-url>`. Utilizar el tipo de url (HTTPS/SSH) que consideren más adecuado a su entorno de trabajo.
-6. Realizar un commit inicial con algún cambio pequeño para confirmar que puedan subir sus cambios de aquí en adelante.
 
 ## Introducción
 
