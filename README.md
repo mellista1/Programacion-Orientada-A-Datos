@@ -22,7 +22,6 @@ Se recomienda **fuertemente** ir haciendo commits de su progreso a medida que av
       - [Lista Enlazada](#lista-enlazada)
       - [Vector](#vector)
     - [Ejercicio Integrador](#ejercicio-integrador)
-  - [Entrega](#entrega)
 
 
 ## Introducción
@@ -185,6 +184,3 @@ Es cierto que el lenguaje C no nos provee ninguna forma sintáctica para devolve
 
 
 > :warning: No olviden hacer *commit* de sus respuestas periódicamente!
-
-## Entrega
-Una vez terminado el tp1-a completar este [formulario](https://forms.gle/fNNTf5G66kdadYs7A) para informar el repositorio grupal y registrar la entrega del tp.
